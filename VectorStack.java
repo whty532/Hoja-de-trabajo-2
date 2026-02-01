@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.EmptyStackException;
 
-public class VectorStack<T> implements IStack {
+public class VectorStack<T> implements IStack<T> {
 
     private T[] data;
     private int top;
