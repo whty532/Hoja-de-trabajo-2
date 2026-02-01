@@ -6,10 +6,10 @@ public class VectorStack<T> implements IStack {
     private T[] data;
     private int top;
 
-    public VectorStack() [
-        data ) (T[]) new Object[10];
+    public VectorStack() {
+        data = (T[]) new Object[10];
         top = 0;
-    ]
+    }
 
     @Override
     public void push(T value) {
