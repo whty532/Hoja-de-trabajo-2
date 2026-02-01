@@ -12,7 +12,7 @@ public class PostfixCalculator implements IPostfixCalculator {
         String[] tokens = expresion.split("");
         for(String token : tokens) {
             if(token.matches("\\d+")) {
-                stack.push(Integer.parseInt(token);
+                stack.push(Integer.parseInt(token));
             }
 
             else if("+-*/%".contains(token)) {
